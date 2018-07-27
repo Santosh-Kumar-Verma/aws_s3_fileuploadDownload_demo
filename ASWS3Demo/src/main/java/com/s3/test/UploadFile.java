@@ -13,7 +13,7 @@ import com.amazonaws.services.s3.model.PutObjectResult;
 public class UploadFile {
 
 	public static void main(String[] args) throws IOException {
-		String existingBucketName = "vermadocbucket";
+		String existingBucketName = "<your bucket>";
 		  String keyName = "Lighthouse.jpg";
 		  
 		  String filePath = "E://image/Lighthouse.jpg";
